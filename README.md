@@ -4,7 +4,7 @@ A seven-day teacher planner generator with live previews and hyperlinked PDF dow
 
 ## Publish on GitHub Pages
 
-1. Create a public GitHub repository named `teacher-planner`. Select **Add a README file** to initialise its main branch.
+1. Create a public GitHub repository named `teacherplanner`. Select **Add a README file** to initialise its main branch.
 2. Extract this ZIP on your computer or phone.
 3. In the repository, choose **Add file → Upload files**.
 4. Upload `index.html`, `style.css`, `app.js`, and this `README.md` directly into the repository root. Do not upload the ZIP or a containing folder. Replace the initial README if prompted.
@@ -14,7 +14,7 @@ A seven-day teacher planner generator with live previews and hyperlinked PDF dow
 8. Choose branch **main**, folder **/(root)**, and click **Save**.
 9. Wait for deployment, then use the website link GitHub displays in Pages settings.
 
-If the repository belongs to zero6git and is named teacher-planner, the expected address is https://zero6git.github.io/teacherplanner/ (not live until deployment succeeds).
+Public website: https://zero6git.github.io/teacherplanner/
 
 ## Features
 
@@ -43,3 +43,13 @@ Planner generation happens in the browser. Settings are saved in localStorage on
 ## Source licensing
 
 No open-source licence has been selected. Public visibility alone does not grant a general licence to reuse or redistribute the code. The repository owner can add a licence later.
+
+## Interface update — v0.2
+
+- Ice White (#F3FAFC), Deep Teal (#075E63), and Soft Peach (#FFD8C2).
+- Gentle entrance animations, navigation-only preview transitions, and button feedback.
+- Motion on/off control that remembers your preference; system reduced-motion settings take priority.
+- Larger controls, keyboard focus indicators, and mobile shortcuts to settings and preview.
+- Matching PDF highlights with the existing linked navigation.
+
+Motion uses native CSS keyframes and transitions. No animation service, external library, or build step is required.
