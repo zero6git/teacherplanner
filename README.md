@@ -14,7 +14,7 @@ A seven-day teacher planner generator with live previews and hyperlinked PDF dow
 8. Choose branch **main**, folder **/(root)**, and click **Save**.
 9. Wait for deployment, then use the website link GitHub displays in Pages settings.
 
-If the repository belongs to zero6git and is named teacher-planner, the expected address is https://zero6git.github.io/teacher-planner/ (not live until deployment succeeds).
+If the repository belongs to zero6git and is named teacher-planner, the expected address is https://zero6git.github.io/teacherplanner/ (not live until deployment succeeds).
 
 ## Features
 
